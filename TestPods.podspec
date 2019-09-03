@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #最低版本
   s.ios.deployment_target = '9.0'
 #数据源
-  s.source       = { :svn => 'https://github.com/tulin745/FulanFrameworks.git', :tag => s.version.to_s }
+  s.source       = { :git => 'https://github.com/tulin745/FulanFrameworks.git', :tag => s.version.to_s }
 #源文件
   s.source_files = 'TestPods/*.{h,m}'
 #头文件
